@@ -7,51 +7,82 @@
     <title>Home</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
+            background: linear-gradient(to right, #e0f7fa, #e1f5fe);
+            color: #333;
         }
 
         header {
-            background-color: #333;
+            background-color: #0d47a1;
             color: #fff;
-            padding: 10px 0;
+            padding: 15px 0;
             text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
 
         nav ul {
             list-style-type: none;
             padding: 0;
+            margin: 0;
         }
 
         nav ul li {
             display: inline;
-            margin-right: 10px;
+            margin-right: 20px;
         }
 
         nav ul li a {
-            color: #fff;
+            color: #ffeb3b;
             text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
         }
 
         main {
-            padding: 20px;
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
         }
 
         section {
-            margin-bottom: 20px;
+            margin-bottom: 30px;
+            background-color: #ffffffcc;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #1565c0;
+        }
+
+        a {
+            color: #0277bd;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
         }
 
         footer {
-            background-color: #333;
+            background-color: #0d47a1;
             color: #fff;
             text-align: center;
             padding: 10px 0;
             position: fixed;
             bottom: 0;
             width: 100%;
+            font-size: 14px;
         }
-    </style>    
+    </style>
 </head>
 <body>
     <header>
@@ -67,25 +98,23 @@
 
     <main>
         <section>
-            <h1>Learn DevOps from Basics</h1>
-            <p>The main purpose of this website is to guide people on how to learn DevOps 
-                from basics for Free. We will provide you with the best resources to learn.
-            </p>
+            <h1>Welcome to my Cloud and DevOps World</h1>
+            <p>Hello! I'm <strong>Mohamed Sharique Anwar</strong>, a passionate Cloud and DevOps Engineer. This platform is dedicated to helping you build strong skills in <strong>AWS Cloud</strong> and modern <strong>DevOps practices</strong> through real-world, project-based learning—completely free.</p>
         </section>
 
         <section>
-            <h2>Overview</h2>
-            <p> Zero to Hero courses on all DevOps tools and popular Cloud(AWS and Azure) platform</p>
+            <h2>What You'll Learn</h2>
+            <p>You'll gain hands-on experience with industry-standard AWS services, Infrastructure as Code (IaC), CI/CD pipelines, automation tools, and container orchestration using best DevOps practices.</p>
         </section>
 
         <section>
             <h2>Courses Offered</h2>
-            <p>Please look at the <a href="courses">courses</a> section.</p>  
+            <p>Explore our curated <a href="courses">Courses</a> section for complete guidance on AWS core services and DevOps tools like EC2, S3, IAM, CloudFormation, Terraform, Docker, GitHub Actions, and more.</p>  
         </section>
     </main>
 
     <footer>
-        <p>&copy; Abhishek.Veeramalla</p>
+        <p>&copy; Mohamed.Sharique.Anwar</p>
     </footer>
 </body>
 </html>
